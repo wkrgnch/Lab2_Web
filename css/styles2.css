@@ -79,9 +79,14 @@ input[type="submit"]{
     margin-top: 10px;
 }
 
+input[type="checkbox"]{cursor: pointer;}
+
+.password{
+    margin-bottom: 5px;
+}
+
 .password:hover{
     cursor: text;
-    margin-bottom: 5px;
 }
 
 .login, .password{
