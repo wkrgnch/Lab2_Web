@@ -1,0 +1,169 @@
+html, body { 
+    margin: 0; 
+    height: 100%; 
+}
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    font-style: normal;
+    color: aliceblue;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.background-video{
+    position: fixed; 
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction:row;
+    list-style:none;
+    align-items: center;
+    gap: 15px;
+    margin: 0;
+    
+}
+
+header nav {
+    background-color: rgba(0, 0, 0, 0.508);
+    backdrop-filter: blur(10px);
+}
+
+a {
+    color:rgb(255, 167, 120);
+    text-decoration-line: none;
+}
+
+a:hover, a:focus-visible {
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+.rectangle_info{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+
+    width: 500px;
+    height: 800px;
+    border-radius: 90px;
+    background-color: rgba(0, 0, 0, 0.508);
+    backdrop-filter: blur(20px);
+    
+    margin: 40px;
+    margin-left: 490px;
+}
+
+::placeholder{
+    color:rgb(251, 109, 33);
+}
+
+input{
+    margin: 10px;
+}
+
+.file{
+    padding-left: 30px;
+}
+
+::file-selector-button{
+    border: 0;
+    border-radius: 7px;
+    color:rgb(251, 109, 33);
+    
+}
+
+input[type="submit"]{
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    background-color:rgb(251, 109, 33);
+}
+
+input:hover, select:hover{
+    cursor: pointer;
+}
+
+input[type="text"]:hover{
+    cursor: text;
+}
+
+.name, .email{
+    border: 0;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.952);
+    width: 200px;
+    height: 25px;
+    margin: 30px;
+    margin-bottom: 0;
+    
+}
+.email{
+    margin-bottom: 20px;
+}
+
+select {
+    border: 0;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.952);
+    width: 200px;
+    height: 25px;
+    margin: 30px;
+    margin-bottom: 0;
+    color: rgb(251, 109, 33);
+}
+
+select option{
+    color:rgb(251, 109, 33);
+}
+
+p b{
+    padding-top: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+textarea{
+    border-radius: 10px;
+    border: 0;
+    margin: 25px;
+}
+
+.friend{
+    padding-top: 0;
+    margin-top: 0;
+}
+
+h1{
+    margin-top: 50px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+footer {
+    margin-top: auto;
+    background: rgba(0, 0, 0, 0.508);
+    padding-block: 24px;
+    backdrop-filter: blur(10px);
+}
+
+footer p { margin-left: 40px; margin-top: 0;}
+
+footer a {
+    display: block;
+    margin-left: 40px;
+}
+
+footer { padding-block: 15px; }
