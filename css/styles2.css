@@ -76,10 +76,12 @@ input[type="submit"]{
     color: rgb(255, 255, 255);
     background-color:rgb(251, 109, 33);
     cursor: pointer;
+    margin-top: 10px;
 }
 
 .password:hover{
     cursor: text;
+    margin-bottom: 5px;
 }
 
 .login, .password{
@@ -95,9 +97,7 @@ input[type="submit"]{
 .login{
     margin-top: 35px;
 }
-.password{
-    margin-bottom: 20px;
-}
+
 
 p b{
     padding-top: 20px;
