@@ -32,21 +32,21 @@
             <div class ="rectangle_info">
                 <form action="https://httpbin.org/post" name="form1" enctype = "multipart/form-data" method="post">
                     <h1>Форма обратной связи</h1>
-                    <input class="name" type="text" name="name" size="20" placeholder=" ФИО" required>
+                    <input class="name" type="text" name="fullname" size="20" placeholder=" ФИО" required>
                     <input class="email" type="text" name="email" size="20" placeholder=" email" required>
 
                     <p><b>Откуда узнали о нас?</b></p>
                     <p><input class="friend" type="radio" name="whenfind" value="friend">От друга<Br>
                     <input class="net" type="radio" name="whenfind" value="net">Из интернета</p>
-                    <select size="1">
+                    <select size="1" name="selecter">
                         <option value="1">Жалоба</option>
                         <option value="2">Предложение</option>
                     </select>
                     <p><b>Текст сообщения:</b></p>
-                    <textarea rows="7" cols="25" required></textarea>
-                    <input class = "file" type="file" name="f">
-                    <p><input type="checkbox" required>Даю согласие на обработку персональных данных</p>
-                    <p><input type="submit"></p>
+                    <textarea rows="7" cols="25" required name="text"></textarea>
+                    <input class = "file" type="file" name="file">
+                    <p><input type="checkbox" name="agreeornot" required>Даю согласие на обработку персональных данных</p>
+                    <p><input type="submit" name="submit"></p>
                 </form>
             </div>
         </main>
